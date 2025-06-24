@@ -5,13 +5,13 @@
  */
 
 public class BangunDatar {
-    // Atribut bertipe bilangan desimal
+    // Atribut bertipe desimal
     double alas;
     double tinggi;
     double jariJari;
     double hasil;
 
-    // Constructor tanpa parameter
+    // Constructor
     public BangunDatar() {
         alas = 0;
         tinggi = 0;
@@ -19,5 +19,15 @@ public class BangunDatar {
         hasil = 0;
     }
 
-    // Anda bisa menambahkan method perhitungan di sini jika diperlukan
+    // Method mutator untuk menghitung luas segitiga
+    public void hitungLuasSegitiga() {
+        hasil = 0.5 * alas * tinggi;
+        System.out.println("Luas Segitiga = " + hasil);
+    }
+
+    // Method mutator untuk menghitung luas lingkaran
+    public void hitungLuasLingkaran() {
+        hasil = 3.14 * jariJari * jariJari;
+        System.out.println("Luas Lingkaran = " + hasil);
+    }
 }
