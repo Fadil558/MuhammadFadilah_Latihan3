@@ -1,6 +1,6 @@
 /**
  * Nama  : Muhammad Fadilah
- * NPM   : 2312345678
+ * NPM   : 2310010609
  * Kelas : 4 A REG BJM
  */
 public class BangunDatar {
